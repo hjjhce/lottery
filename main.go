@@ -29,6 +29,5 @@ func main() {
 	}
 
 	sort.Ints(number)
-	fmt.Println(number)
-	fmt.Println(rand.Intn(16))
+	fmt.Println(time.Now().Format("2006-01-02"), number, rand.Intn(16))
 }
